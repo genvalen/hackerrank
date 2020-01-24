@@ -1,5 +1,4 @@
-#Original problem:
-#https://www.hackerrank.com/challenges/py-if-else/problem
+#Original problem: https://www.hackerrank.com/challenges/py-if-else/problem
 
 N = int(input())
 
