@@ -1,4 +1,4 @@
-#Original problem: https://www.hackerrank.com/challenges/python-division/submissions/code/110026567
+#Original problem: https://www.hackerrank.com/challenges/python-division/problem
 if __name__ == '__main__':
     a = int(input())
     b = int(input())
