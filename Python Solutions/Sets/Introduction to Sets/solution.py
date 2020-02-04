@@ -1,4 +1,4 @@
-#Original problem: https://www.hackerrank.com/challenges/py-introduction-to-sets/problem
+# Original problem: https://www.hackerrank.com/challenges/py-introduction-to-sets/problem
 def average(array):
     items = set(array)
     avg = sum(items)/ len(items)
