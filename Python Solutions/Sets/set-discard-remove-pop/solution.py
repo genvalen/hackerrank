@@ -1,14 +1,10 @@
 #Original problem: https://www.hackerrank.com/challenges/py-set-discard-remove-pop/problem
-n = int(input())
-s =  set(map(int, input().split()))
-cmds = [input().split() for _ in range(int(input()))]
+n, s = (input(), set(map(int, input().split())))
 
-for c in cmds:
+for c in range(int(input())):
     try:
-        if len(c)> 1:
-            eval('s.{}({})'.format(c[0], c[1]))
-        else:
-            eval('s.{}()'.format(c[0]))
+        cmd, *args = input().split()
+        getattr(s, cmd) (*[int(x) for x in args])
     except: KeyError
     
 print(sum(s))
