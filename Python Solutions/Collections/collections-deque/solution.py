@@ -2,7 +2,7 @@
 if __name__ == '__main__':
     from collections import deque
     
-    d= deque()
+    d = deque()
 
     for i in range(int(input())):
         cmd, *args = input().split()
