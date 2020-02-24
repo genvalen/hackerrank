@@ -7,10 +7,10 @@ if __name__ == '__main__':
 
     for i in range(n):
         word = input()
-        if word not in d:
-            d[word] = 1
-        else:
+        if word in d:
             d[word] += 1
+        else:
+            d[word] = 1
 
     print(len(d)) 
-    print(*[v for k, v in d.items()])
+    print(*d.values())
