@@ -8,3 +8,4 @@ if __name__ == '__main__':
 
     for i in zip(*scores):
         print("{:0.1f}".format(sum(i)/x))
+        
