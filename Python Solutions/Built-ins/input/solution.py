@@ -7,3 +7,4 @@ if __name__=='__main':
     # input() in python2 is 
     # equivalent to eval(expression)
     print(input() == k)
+    
