@@ -1,3 +1,4 @@
+# Original problem: https://www.hackerrank.com/challenges/python-time-delta/problem
 from datetime import datetime
 import os
 
