@@ -1,4 +1,6 @@
 # Original problem: https://www.hackerrank.com/challenges/capitalize/problem
+import os
+
 def solve(s):
     return (" ".join([i.capitalize() if i.isalpha() else i for i in s.split(" ")]))
 
