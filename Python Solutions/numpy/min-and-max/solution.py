@@ -1,5 +1,4 @@
-# original problem:
-
+# original problem: https://www.hackerrank.com/challenges/np-min-and-max/problem
 if __name__ == '__main__':
     import numpy as np 
 
@@ -14,3 +13,4 @@ if __name__ == '__main__':
     max_val = np.max(min_val, axis = 0)
 
     print(max_val)
+    
