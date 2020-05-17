@@ -10,5 +10,3 @@ if __name__ == '__main__':
     np.set_printoptions(legacy = '1.13')
 
     print(np.mean(ar, axis = 1), np.var(ar, axis = 0), np.std(ar), sep= "\n")
-
-    
