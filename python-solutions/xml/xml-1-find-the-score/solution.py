@@ -7,7 +7,6 @@ def get_attr_number(node):
     for elem in node.iter('*'):
         if elem.attrib:
             score += len(elem.attrib)
-
     return(score)
 
 if __name__ == '__main__':
