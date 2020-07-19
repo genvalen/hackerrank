@@ -1,4 +1,5 @@
-// original problem: https://www.hackerrank.com/challenges/java-if-else/problem 
+// Original problem: https://www.hackerrank.com/challenges/java-loops-i/problem
+
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -9,6 +10,7 @@ import java.util.regex.*;
 
 public class Solution {
 
+
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -16,11 +18,9 @@ public class Solution {
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
         scanner.close();
 
-        if( N%2 == 1 || (N%2==0 && N>=6 && N<=20)) {
-            System.out.println("Weird");
-        }
-        else{
-            System.out.println("Not Weird");
+        for(int i = 1; i <= 10; i++) {
+            System.out.printf(N + " x " + i + " = " + N * i);
+
         }
     }
 }
