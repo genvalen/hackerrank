@@ -1,5 +1,4 @@
 // Original problem: https://www.hackerrank.com/challenges/java-substring/copy-from/101544262
-
 import java.io.*;
 import java.util.*;
 import java.text.*;
