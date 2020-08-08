@@ -10,7 +10,7 @@ public class Solution {
         Scanner sc=new Scanner(System.in);
         String A= sc.next();
         String B = "";
-       for(int i =0; i< A.length(); i++){
+        for(int i =0; i< A.length(); i++){
         char letter = A.charAt(i);
         B = letter + B;
        }
