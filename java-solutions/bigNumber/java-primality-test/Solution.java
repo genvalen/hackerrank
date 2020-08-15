@@ -1,5 +1,6 @@
 // Original problem: https://www.hackerrank.com/challenges/java-primality-test/problem
 import java.io.*;
+import java.io.*;
 import java.math.*;
 import java.security.*;
 import java.text.*;
@@ -15,13 +16,6 @@ public class Solution {
 
     public static void main(String[] args) {
         String n = scanner.nextLine();
-        BigInteger tester = new BigInteger(n);
-        boolean answer = tester.isProbablePrime(1);
-
-        if(answer == true)
-            System.out.println("prime");
-        else
-            System.out.println("not prime");
 
         scanner.close();
     }
