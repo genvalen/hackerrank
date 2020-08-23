@@ -1,5 +1,4 @@
 // original problem: https://www.hackerrank.com/challenges/java-1d-array-introduction/copy-from/109210726
-
 import java.util.*;
 
 public class Solution {
