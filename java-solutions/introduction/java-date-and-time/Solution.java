@@ -1,4 +1,4 @@
-// https://www.hackerrank.com/challenges/java-date-and-time/problem
+// Original problem: https://www.hackerrank.com/challenges/java-date-and-time/problem
 
 class Result {
 

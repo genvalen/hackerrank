@@ -1,3 +1,4 @@
+// Original problem: https://www.hackerrank.com/challenges/java-1d-array-introduction/problem
 import java.util.*;
 import java.io.*;
 
