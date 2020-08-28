@@ -1,3 +1,5 @@
+// Original problem: https://www.hackerrank.com/challenges/java-int-to-string/problem
+
 package java-solutions.introduction.java-int-to-string;
 
 import java.util.*;
