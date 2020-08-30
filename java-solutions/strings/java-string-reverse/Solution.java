@@ -1,4 +1,4 @@
-// original problem: https://www.hackerrank.com/challenges/java-string-reverse/copy-from/102690443
+// Original problem: https://www.hackerrank.com/challenges/java-string-reverse/copy-from/102690443
 
 import java.io.*;
 import java.util.*;
