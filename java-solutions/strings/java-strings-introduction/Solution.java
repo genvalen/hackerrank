@@ -1,4 +1,4 @@
-// https://www.hackerrank.com/challenges/java-strings-introduction/copy-from/99550701
+// Original problem: https://www.hackerrank.com/challenges/java-strings-introduction/copy-from/99550701
 
 import java.io.*;
 import java.util.*;
