@@ -1,4 +1,4 @@
-// original problem: https://www.hackerrank.com/challenges/java-string-compare/copy-from/101885485
+// Original problem: https://www.hackerrank.com/challenges/java-string-compare/copy-from/101885485
 
 import java.util.Scanner;
 
